@@ -1,0 +1,97 @@
+#header{
+    height: 20vh;
+    background-color:rgb(107, 142, 35);
+}
+#brand{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+#logopic{
+    height: 15vh;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+#name{
+    padding: 1vw;
+}
+h1{
+    /* height: 8vh; */
+    font-size: 6vh;
+    margin-bottom: 0;
+    margin-top: 2vh;
+    background: -webkit-linear-gradient(#eee, rgb(222, 242, 44));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    
+}
+h2{
+    margin-top: 0;
+    padding-top: 1px;
+    margin-bottom: 1px;
+}
+#content{
+    background-color: white;
+    margin-top: 0;
+    position: relative;
+    padding-top: 10vh;
+    background-image: url("olive3.png");
+    height: 56vh;
+
+}
+#middle_container{
+    width: 30vw;
+    height: 37vh;
+    background-color: rgb(251, 251, 250);
+    box-shadow: inset 0 0 7px 4px rgba(46, 65, 10, 0.5);
+    margin-left: 32vw;
+    position: relative;
+    padding-top:1vh ;
+    border-radius: 1rem;
+    
+}
+#middle_container h2{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 2vh;
+    color: olive;
+       
+}
+#loginbox h3{
+    font-size: 3vh;
+}
+#loginbox{
+    margin-top: 1vh ;
+    margin-left: 7vw;
+}
+#loginbox button{
+    padding: 1vh 1vw 1vh 1vw;
+    font-size: 2vh;
+    margin-block-end: 4vw;
+    border-radius: 2rem;
+    width: 7vw;
+    background-color: olivedrab;
+    
+}
+#loginbox button:hover{
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+#footer{
+    margin-top: 64vh;
+    height: 13vh;
+    background-color: olivedrab;
+    text-align: center;
+    padding-top: 1vh;
+}
+#footer a{
+    text-decoration: none;
+    color:black;
+    font-size: 3vh;
+    
+    
+}
+#footer a:hover{
+    color: yellow;
+}
