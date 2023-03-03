@@ -1,3 +1,4 @@
+/* styles for the header section */
 #header{
     height: 20vh;
     background-color:rgb(107, 142, 35);
@@ -31,6 +32,8 @@ h2{
     padding-top: 1px;
     margin-bottom: 1px;
 }
+
+/* styles for the body section */
 #content{
     background-color: white;
     margin-top: 0;
@@ -81,6 +84,8 @@ h2{
     font-weight: bold;
     color: black;
 }
+
+/* styles for the footer section */
 #footer{
     margin-top: 64vh;
     height: 13vh;
